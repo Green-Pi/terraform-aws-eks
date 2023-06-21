@@ -11,7 +11,7 @@ variable "tags" {
 }
 
 variable "platform" {
-  description = "Identifies if the OS platform is `bottlerocket` or `linux` based; `windows` is not supported"
+  description = "Identifies if the OS platform is `bottlerocket`, `linux` or `windows` based"
   type        = string
   default     = "linux"
 }
